@@ -5,13 +5,13 @@
 'displays help
 if Command(1) = "/?" then
 	Print("Oblique Strategies (Over One Hundred Worthwhile Dilemmas) for DOS")
-	Print("Version 0.1.0 ""America Is Waiting""")
+	Print("Version 0.1.1 ""America Is Waiting""")
 	Print("1975 Brian Eno and Peter Schmidt")
 	Print("2025 Valentin Cotta")
 	Print("")
 	Print("OSDOS [/T]")
 	Print("")
-	Print("  /T      Displays a random card in text mode")
+	Print("	 /T		 Displays a random card in text mode")
 	end
 End If
 
@@ -54,12 +54,12 @@ SetMouse -1, -1, 0
 Dim radius As Integer = 20
 
 Dim key As String, part as String, char as String
-While True
+Do
 	'check for key press
-    key = Inkey()  
+	key = Inkey()  
 	
-	'if enter or space or init
-    If key = Chr(13) Or key = Chr(32) Or x = 0 Then
+	'if any keypress
+	If Len(key) > 0 Or x = 0 Then
 		'pick random index
 		Randomize
 		index = Rnd * cardscount
@@ -109,12 +109,9 @@ While True
 				Draw String (x, y), part, 0
 			End if
 		Next i
-    End If
+	End If
 
-    'if the Escape key is pressed, exit the loop
-    If key = Chr(27) Then
-        Exit While
-    End If
-
-    Sleep
-Wend
+	Sleep 10
+	
+	Loop Until key = Chr(27)
+End
