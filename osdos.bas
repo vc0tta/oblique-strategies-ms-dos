@@ -5,7 +5,7 @@
 'displays help
 if Command(1) = "/?" then
 	Print("Oblique Strategies (Over One Hundred Worthwhile Dilemmas) for DOS")
-	Print("Version 2.5.4.5 ""America Is Waiting""")
+	Print("Version 2.5.405 ""America Is Waiting""")
 	Print("1975 Brian Eno and Peter Schmidt")
 	Print("2025 Valentin Cotta")
 	Print("")
