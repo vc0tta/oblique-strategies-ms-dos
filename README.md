@@ -2,7 +2,7 @@
 
 This project is a port of Brian Eno's Oblique Strategies to MS-DOS, implemented in FreeBASIC. Oblique Strategies is a set of cards created by Brian Eno and Peter Schmidt, intended to help artists and musicians break creative blocks by providing random directives.
 
-![Oblique Strategies for FreeDOS and MS-DOS Screenshot](oblique_strategies_ms-dos_preview.jpg)
+![Oblique Strategies for FreeDOS and MS-DOS Screenshot](oblique_strategies_ms-dos_preview.png)
 
 ## Features
 
@@ -56,6 +56,8 @@ This project is licensed under the GNU General Public License v3.0. See the [LIC
 Oblique Strategies. In Wikipedia, The Free Encyclopedia. https://en.wikipedia.org/wiki/Oblique_Strategies
 
 DOS related FAQ - FreeBASIC Wiki Manual | FBWiki. (2019). Freebasic.net. https://www.freebasic.net/wiki/FaqDOS#item4
+
+DRAW STRING - FreeBASIC Wiki Manual | FBWiki. (2019). Freebasic.net. https://www.freebasic.net/wiki/KeyPgDrawstring
 
 ‌CWSDPMI - Free DPMI provider for DOS. (2025). Dotster.com. https://sandmann.dotster.com/cwsdpmi/
 
