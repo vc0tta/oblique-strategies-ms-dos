@@ -40,7 +40,12 @@ This project is a port of Brian Eno's Oblique Strategies to MS-DOS, implemented 
 
 ## Usage
 
-Upon running the program, a random Oblique Strategy will be displayed. You can press the SPACEBAR to generate a new strategy, and ESCAPE to get back to the CLI.
+Upon running the program, a random Oblique Strategy will be displayed. You can press any key to generate a new strategy, and ESCAPE to get back to the CLI.
+
+## Parameters
+
+- **osdos /?**: Displays help at the command prompt. 
+- **osdos /T**: Displays a random card in text mode. 
 
 ## License
 
