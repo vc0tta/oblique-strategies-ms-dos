@@ -2,6 +2,8 @@
 
 This project is a port of Brian Eno's Oblique Strategies to MS-DOS, implemented in FreeBASIC. Oblique Strategies is a set of cards created by Brian Eno and Peter Schmidt, intended to help artists and musicians break creative blocks by providing random directives.
 
+You can try it @ https://vcotta.itch.io/oblique-strategies-ms-dos
+
 ![Oblique Strategies for FreeDOS and MS-DOS Screenshot](oblique_strategies_ms-dos_preview.png)
 
 ## Features
